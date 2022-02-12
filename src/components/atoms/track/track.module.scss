@@ -1,0 +1,22 @@
+.Track {
+  width: 20%;
+  margin: auto;
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 8px;
+
+  img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+
+  .artists {
+    font-size: 1.2rem;
+  }
+}

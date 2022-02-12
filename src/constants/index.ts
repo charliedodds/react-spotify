@@ -3,8 +3,10 @@ export const RESPONSE_TYPE = 'token'
 export const REDIRECT_URI = 'http://localhost:3000'
 export const SCOPE = 'user-read-recently-played'
 export const SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize'
-export const FULL_SPOTIFY_URL = `${SPOTIFY_AUTH_URL}?response_type=${RESPONSE_TYPE}&client_id=${encodeURIComponent(
+export const FULL_SPOTIFY_AUTH_URL = `${SPOTIFY_AUTH_URL}?response_type=${RESPONSE_TYPE}&client_id=${encodeURIComponent(
   CLIENT_ID
 )}&scope=${encodeURIComponent(SCOPE)}&redirect_uri=${encodeURIComponent(
   REDIRECT_URI
 )}`
+export const SPOTIFY_REQUEST_URL =
+  'https://api.spotify.com/v1/me/player/recently-played'

@@ -1,0 +1,26 @@
+.SpotifyRecentlyPlayed {
+  .title {
+    margin: 2rem 0;
+  }
+  .description {
+    margin-bottom: 4rem;
+  }
+
+  .actions {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem 2rem 0 auto;
+    width: 80%;
+  }
+}

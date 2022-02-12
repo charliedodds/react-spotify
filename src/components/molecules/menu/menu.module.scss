@@ -1,0 +1,12 @@
+.Menu {
+  height: 100vh;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+
+  ul {
+    height: 100%;
+  }
+}
