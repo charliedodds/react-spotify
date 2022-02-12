@@ -1,5 +1,4 @@
 import React from 'react'
-import classnames from 'classnames'
 
 import s from './track.module.scss'
 import ITrack from '../../../types/track'
