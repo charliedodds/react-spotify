@@ -1,0 +1,13 @@
+.Button {
+  padding: 1rem 2rem;
+  color: white;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+
+  &.primary {
+    background-color: green;
+    border-radius: 3rem;
+  }
+}
